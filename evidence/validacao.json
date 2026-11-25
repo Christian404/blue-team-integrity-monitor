@@ -1,0 +1,8 @@
+{
+  "verificado_em_relogio_local": "2026-11-25T07:44:46-04:00",
+  "comando": "python -m unittest discover -s tests -v",
+  "testes": 6,
+  "exit_code": 0,
+  "resultado": "test_added_modified_removed (test_integrity.IntegrityTests.test_added_modified_removed) ... ok\ntest_cli_exit_codes_and_manifest_protection (test_integrity.IntegrityTests.test_cli_exit_codes_and_manifest_protection) ... ok\ntest_empty_directory (test_integrity.IntegrityTests.test_empty_directory) ... ok\ntest_missing_directory (test_integrity.IntegrityTests.test_missing_directory) ... ok\ntest_sha256_and_relative_path (test_integrity.IntegrityTests.test_sha256_and_relative_path) ... ok\ntest_unchanged (test_integrity.IntegrityTests.test_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.661s\n\nOK\n",
+  "escopo": "Teste local com arquivos temporários, não implantação em produção. CI remoto será verificado separadamente."
+}
